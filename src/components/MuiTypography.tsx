@@ -1,20 +1,15 @@
 import React from 'react';
 import { Typography } from '@mui/material';
-import '@fontsource/work-sans/100.css';
-import '@fontsource/work-sans/200.css';
-import '@fontsource/work-sans/300.css';
-import '@fontsource/work-sans/400.css';
-import '@fontsource/work-sans/500.css';
-import '@fontsource/work-sans/600.css';
-import '@fontsource/work-sans/700.css';
-import '@fontsource/work-sans/800.css';
-import '@fontsource/work-sans/900.css';
+import '@fontsource/work-sans';
 
 const MuiTypography: React.FC = () => {
   return (
     <>
-      <Typography fontWeight={900} variant='h1'> h1 Heading </Typography>
-      <Typography fontWeight={700} variant='h1'> h1 Heading </Typography>
+      <Typography fontFamily="'Work sans'" fontWeight={900} variant='h1'> h1 Heading </Typography>
+      <Typography fontFamily="sans" fontWeight={900} variant='h1'> h1 Heading </Typography>
+      <Typography fontFamily="sans-serif" fontWeight={900} variant='h1'> h1 Heading </Typography>
+      <Typography fontFamily="sans" fontWeight={900} variant='h1'> h1 Heading </Typography>
+      <Typography fontWeight={700}  variant='h1' component="h3"> h1 Heading </Typography>
       <Typography fontWeight={500} variant='h1'> h1 Heading </Typography>
       <Typography fontWeight={300} variant='h1'> h1 Heading </Typography>
       <Typography fontWeight={100} variant='h1'> h1 Heading </Typography>

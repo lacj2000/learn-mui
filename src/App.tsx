@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       
-      // Typography
+      {/* Typography */}
       <MuiTypography></MuiTypography>
    </>
   );
