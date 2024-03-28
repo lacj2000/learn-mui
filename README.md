@@ -1,3 +1,17 @@
+This project is my learning and use for MUI (Material UI) in react
+Documentation link: https://mui.com/material-ui
+
+Typography link: https://mui.com/material-ui/react-typography/
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
